@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title> </title>
+<title>My Web page </title>
 <body>
 <h1>JENKIN CLASSES</h1>
 </body>
