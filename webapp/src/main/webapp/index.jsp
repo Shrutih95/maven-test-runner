@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<title> </title>
 <body>
 <h1>JENKIN CLASSES</h1>
 </body>
@@ -25,6 +27,7 @@ h5
   </div>
 </body>
 </html>
+
 
 
 
