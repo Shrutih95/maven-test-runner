@@ -40,15 +40,18 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
-            <plugin>
+		<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.12.0</version>
+            </plugin>
+           <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.1</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
-
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.0</version>
@@ -165,15 +168,7 @@
             </plugins>
         </pluginManagement>
     </build>
-	<reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.22.0</version>
-            </plugin>
-        </plugins>
-    </reporting>
+	
 
     <dependencyManagement>
         <dependencies>
